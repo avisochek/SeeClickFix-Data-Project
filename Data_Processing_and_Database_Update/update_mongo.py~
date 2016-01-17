@@ -1,0 +1,62 @@
+import pymongo
+from pymongo import MongoClient
+from scf_data_download import get_data
+from get_street_name import get_street_name
+from get_neighborhood import get_neighborhood
+from get_street_lengths import get_street_lengths
+
+def update_local_db():
+    #connect to mongodb server and create database...
+    client = MongoClient()
+    db= client.nh_data
+
+    print "downloading new scf data..."
+    ## get date of latest update
+    latest_entry = db.issues.find().sort("id",pymongo.DESCENDING).limit(1)
+    try:
+        latest_date = latest_entry.next()["created_at"]
+    except:
+        latest_date = None
+
+    ids,repids,rtids,rtts,times,acks,statuses,addrs,lngs,lats,acknowledged_ats,closed_ats = get_data(latest_date)
+    print "getting neighborhoods..."
+    innhs,hoods = get_neighborhood(lngs,lats)
+    print "getting street_names..."
+    street_names = get_street_name(addrs)
+    print "inserting issues into database..."
+    for i in range(len(ids)):
+        if innhs[i]:
+            if not db.issues.find_one({"id":ids[i]}):
+                db.issues.insert_one({"id":ids[i],
+				      "repid":repids[i],
+                                      "rtid":rtids[i],
+                                      "rtt":rtts[i],
+                                      "created_at":times[i],
+                                      "acknowledged":acks[i],
+                                      "status":statuses[i],
+                                      "address":addrs[i],
+                                      "lng":lngs[i],
+                                      "lat":lats[i],
+                                      "neighborhood":hoods[i],
+                                      "street_name":street_names[i],
+                                      "acknowledged_at":acknowedged_ats[i],
+                                      "closed_at":closed_ats[i]})
+
+    print "getting street info..."
+    ## get street data. To save time, only calculate street length for new streets
+    all_street_names=[]
+    for issue in db.issues.find():
+        all_street_names.append(issue["street_name"])
+    existing_street_names=[]
+    for street in db.streets.find():
+        existing_street_names.append(street["name"])
+    print "getting new street lengths..."
+    unused_street_names=[street_name for street_name in all_street_names if street_name not in existing_street_names]
+    new_street_names,new_street_lengths,new_street_lengths_by_neighborhood=get_street_lengths(unused_street_names)
+    for i in range(len(new_street_names)):
+        db.streets.insert_one({"name":new_street_names[i],
+				"length":new_street_lengths[i]})
+	for hood in new_street_lengths_by_neighborhood[i].keys():
+		db.streets_by_neighborhood.insert_one({"name":new_street_names[i],
+							"neighborhood":hood,
+							"length":new_street_lengths_by_neighborhood[i][hood]})

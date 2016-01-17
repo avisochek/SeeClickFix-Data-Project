@@ -1,0 +1,101 @@
+#! Get Clusters
+### load in data, assign data to 
+### geographic clusters by request type
+### and store in database
+
+### note that rtt is short for request type title and rtid is short for request type id
+
+rtt_dict={
+    "1966":"Trash & Recycling",
+    "124":"Street Lamp",
+    "373":"Signs / Bus Shelters / Pavement Markings",
+    "117":"Sidewalks and Curb damage",
+    "8516":"SNOW RELATED",
+    "116":"Potholes",
+    "2625":"Traffic/Road Safety",
+    "126":"Parks Request",
+    "51":"Traffic Signal / Pedestrian Signal",
+    "121":"Parking Violation/Abandoned Auto",
+    "3018":"Other - city responsibility",
+    "1251":"Private Property Issue",
+    "1249":"Public Space, Streets and Drains",
+    "374":"Other",
+    "1250":"Illegal Dumping",
+    "1853":"Tree Trimming",
+    "6215":"Hangers",
+    "2626":"Policing Issue",
+    "5185":"Health Complaints",
+    "122":"Graffiti",
+    "372":"Parking Meter",
+    "5743":"Bins for Trash & Recycling",
+}
+
+from sklearn.cluster import KMeans
+import pymongo
+from pymongo import MongoClient
+import numpy as np
+from matplotlib import pyplot as plt
+from firebase import firebase
+import json
+import pickle
+import math
+
+## connect to to the database and load issues
+print "loading issues"
+client = MongoClient()
+db=client.nh_data
+lngs=[]
+lats=[]
+ids=[]
+statuses=[]
+rtids=[]
+for issue in db.issues.find():
+    lats.append(issue["lat"])
+    lngs.append(issue["lng"])
+    ids.append(issue["id"])
+    statuses.append(issue["status"])
+    rtids.append(issue["rtid"])
+
+
+## iterate through request_types
+## and create a set of clusters for each
+## use k_means, where k is the number of 
+## open or archived issues divided by 10.
+
+print "getting clusters"
+clusters = {}
+for rtid in list(set(rtids)):
+    try:
+        print "	getting "+ str(rtid)
+        clusters[rtid]=[]
+        ind=((np.array(rtids)==rtid) & ((np.array(statuses)=="Open") | (np.array(statuses)=="Acknowledged"))).nonzero()[0]
+        if len(ind)>50:
+            rtidlngs = np.array(lngs)[ind]
+            rtidlats = np.array(lats)[ind]
+            cluster = KMeans(len(ind)/5)
+            cluster.fit(np.array([rtidlngs,rtidlats]).transpose())
+            cluster_centers = cluster.cluster_centers_
+            cluster_labels = cluster.labels_
+            for cluster in list(set(cluster_labels)):
+                clusterind=ind[np.array(cluster_labels)==cluster]
+                clusters[rtid].append(np.array(ids)[clusterind])
+    except:
+        print "	failed "+str(rtid)
+
+
+
+##first clear old clusters
+print "clearing old clusters data"
+db.clusters.remove()
+db.issues.update_many({},{"$set":{"cluster_id":0}})
+
+##write clusters to database
+print "updating database"
+cluster_id = 1
+for rtid, clustersd in clusters.items():
+    for cluster in clustersd:
+        db.clusters.insert_one({"id":cluster_id,"rtt":rtt_dict[rtid],"rtid":rtid,"score":len(cluster)})
+        for issue_id in cluster:
+            db.issues.update_one({"id":issue_id},{"$set":{"cluster_id":cluster_id}})
+        cluster_id+=1
+

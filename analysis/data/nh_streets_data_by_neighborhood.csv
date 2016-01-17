@@ -1,0 +1,840 @@
+name,neighborhood,length
+"Charles Street","Dixwell",0.1972454756676116
+"Lafayette Street","Hill",0.1112533664549737
+"Del Rio Drive","Fair Haven",0.1509230551592696
+"Alabama Street","Annex",0.4190055591600977
+"Lynwood Place","Downtown",0.07418891284623197
+"Central Avenue","Downtown",0.05711376820733776
+"Central Avenue","Westville",0.4902697873134514
+"Hillside Avenue","Annex",0.1500292291008501
+"Carmel Street","Beaver Hills",0.1279146775852362
+"Carmel Street","Dixwell",0.04096004985829814
+"Spring Street","Hill",0.02371864884224321
+"West Rock Avenue","Westville",0.4035378991945516
+"Compton Street","Dixwell",0.09679582922384991
+"High Street","Downtown",0.3592230780244044
+"Bailey Street","Fair Haven",0.3439334385562996
+"Barclay Street","Hill",0.226834933680731
+"Oak Ridge Drive","Quinnipiac",0.09607526252926271
+"Pequot Street","Fair Haven Heights",0.02412391921127497
+"Stevenson Road","Westville",0.5723197142657205
+"Saint Ronan Street","Prospect Hill",0.2629209508073925
+"Springside Avenue","West Rock",0.4417680225932999
+"Grafton Street","Fair Haven",0.5334183153225519
+"Eddy Street","Hill",0.09993545630767256
+"Quinnipiac Avenue","Fair Haven Heights",0.5547727670767559
+"Quinnipiac Avenue","Quinnipiac",1.383144847922448
+"Quinnipiac Avenue","Annex",0.2533322510485245
+"Amity Road","Amity",0.265973650898518
+"Colonial Place","Westville",0.02997126049234559
+"Hillside Place","Downtown",0.1492863675567191
+"Hillside Place","Dixwell",0.002555499883024791
+"Hillside Place","Prospect Hill",0.02714355197568313
+"Earl Street","Amity",0.1072484284437467
+"Maple Street","Edgewood",0.6464156755466463
+"Maple Street","Dwight",0.07772817675302617
+"Raynham Road","East Shore",0.2223488870669738
+"Daniel Drive","Quinnipiac",0.2079801983545573
+"Brown Street","Wooster Square/Mill River",0.04072797161968262
+"Brown Place","Annex",0.02969073954061556
+"Osborn Street","Wooster Square/Mill River",0.0213084910694683
+"Allen Place","Annex",0.1425127872358503
+"Tyler Street","West River",0.07554134550454535
+"East Rock Road","East Rock",0.3259497842706812
+"East Rock Road","Prospect Hill",0.5000660703776704
+"Tour Avenue","Westville",0.06150120168688804
+"Beacon Avenue","Annex",0.1649036038276814
+"Cottage Street","East Rock",0.486705911467929
+"Cleveland Road","Westville",0.4858063242999318
+"Soundview Terrace","East Shore",0.2018778120722678
+"Adeline Street","Hill",0.2741505161521652
+"Seneca Road","Amity",0.2570470754948978
+"Pendleton Street","Edgewood",0.2065788688114934
+"Pendleton Street","Beaver Hills",0.01255036116485126
+"Tuttle Street","East Shore",0.1772491250884939
+"East Shore Parkway","Annex",0.03705584738093268
+"Edgewood Avenue","Edgewood",1.583156850689091
+"Edgewood Avenue","Downtown",0.1173953753423735
+"Edgewood Avenue","Westville",0.919877838855515
+"Edgewood Avenue","Dwight",0.6831304512963904
+"Stewart Street","East Shore",0.06085509472084993
+"Limerick Street","Fair Haven",0.1117970232879626
+"Beers Street","Dwight",0.1368874423065796
+"Rock Street","East Rock",0.2431252926711435
+"South End Road","East Shore",0.1836494607320215
+"Winter Street","Dixwell",0.111570064114199
+"Platt Street","Dwight",0.07717966265418587
+"Castle Street","Fair Haven",0.1871948675875433
+"Boston Avenue","Annex",0.05034827725005075
+"Burwell Street","Annex",0.3840500713089897
+"Miller Street","West River",0.02583521504994934
+"Eld Street","Downtown",0.1776703758222628
+"Eld Street","Wooster Square/Mill River",0.002776605147707511
+"Eld Street","East Rock",0.0017435769394901
+"Exchange Street","Fair Haven",0.9840836460119766
+"Filmore Street","Fair Haven",0.1878706502187631
+"Laurel Road","Westville",0.1630567872725504
+"Burton Street","Westville",0.1730149650829189
+"Willow Avenue","Downtown",0.035996821735112
+"Chapel Street","Edgewood",0.5999658717866696
+"Chapel Street","Wooster Square/Mill River",1.013687869611225
+"Chapel Street","Downtown",1.069209006227602
+"Chapel Street","West River",0.2004394306250434
+"Chapel Street","Westville",1.00070343028789
+"Chapel Street","Fair Haven",0.8931022596162612
+"Chapel Street","Dwight",0.5592869097375026
+"Nash Street","East Rock",0.2373071058177053
+"Roger White Drive","Beaver Hills",0.3109554547762281
+"Eagle Street","East Rock",0.2153658563078156
+"Dean Street","East Shore",0.2898090272923746
+"Lock Street","Downtown",0.0551896375494605
+"Lock Street","Dixwell",0.1011090710759182
+"Edgemere Road","Annex",0.0647935853552235
+"Audubon Street","Downtown",0.2578557604586812
+"Everit Street","East Rock",0.2798884699990153
+"Long Wharf Drive","Long Wharf",1.204158999111318
+"Davis Street","Westville",0.01318021755264152
+"Davis Street","Amity",0.1265928118605544
+"Cedar Hill Avenue","East Rock",0.1098872543634237
+"Elm Street","Downtown",0.8568449124313476
+"Elm Street","Edgewood",0.8212604787291682
+"Elm Street","Dwight",0.7384336426365459
+"Elm Street","Hill",0.01060326353346057
+"County Street","Dixwell",0.2289977338811028
+"County Street","Dwight",0.06207302779365431
+"Harding Place","Newhallville",0.1355658943611741
+"Reservoir Street","Prospect Hill",0.04742079050953173
+"Clinton Place","Fair Haven",0.1170498872642954
+"Grand Avenue","Fair Haven",1.35604218894517
+"Grand Avenue","Fair Haven Heights",0.04386790787719169
+"Grand Avenue","Downtown",0.1613422594944011
+"Grand Avenue","Wooster Square/Mill River",0.7896551371731403
+"Grand Avenue","Quinnipiac",0.03264979069480677
+"Percival Street","Beaver Hills",0.1125131905189851
+"Percival Street","Dixwell",0.03708000454819706
+"Frank Street","Hill",0.4057515695518362
+"Oliver Road","Westville",0.4975068630341493
+"Eden Street","East Shore",0.1097586274680513
+"Richard Street","Fair Haven",0.0285972745810859
+"Shepard Street","Newhallville",0.08775421948599427
+"Peat Meadow Road","Annex",0.3410342709282986
+"Cranston Street","Quinnipiac",0.3765050940491354
+"Judith Terrace","Annex",0.2059383848301137
+"Mountain Road","Amity",0.2216511187899079
+"Bank Street","Amity",0.1141008498246867
+"Bellevue Road","Beaver Hills",0.3176761137036433
+"Morse Place","East Shore",0.2678499310794993
+"Greenwood Street","West River",0.09124200738758388
+"Greenwood Street","Hill",0.03201154837389319
+"Gilnock Drive","Westville",0.06931130961873586
+"Huntington Avenue","Annex",0.1180665376944977
+"Lincoln Street","Downtown",0.16448483438161
+"Lincoln Street","East Rock",0.04299300533871456
+"Richmond Avenue","Westville",0.1094123967656991
+"Constance Street","East Shore",0.05875432352478557
+"Diamond Street","Beaver Hills",0.3817897281651492
+"Division Street","Prospect Hill",0.3133297089168631
+"Division Street","Newhallville",0.5201737264488028
+"Marvelwood Drive","Westville",0.3018278007836899
+"Ira Street","East Shore",0.04903687768633417
+"Warren Place","East Rock",0.1787128461856034
+"Admiral Street","Dixwell",0.263734176147414
+"Marie Street","Fair Haven Heights",0.1063418056706256
+"Fountain Terrace","Westville",0.1580051689992808
+"Fountain Terrace","Amity",0.03459092957143092
+"Taylor Avenue","Amity",0.09970980102459683
+"Taylor Avenue","West Rock",0.09970980102459683
+"Cora Street","East Shore",0.05669135807805305
+"Walnut Street","Wooster Square/Mill River",0.1474215129491662
+"James Street","Fair Haven",0.370889558885039
+"James Street","Wooster Square/Mill River",0.02432322141216446
+"Mansfield Street","Downtown",0.000641182161913397
+"Mansfield Street","Prospect Hill",0.2473215182947533
+"Mansfield Street","Dixwell",0.1081169163376081
+"Runo Terrace","Fair Haven Heights",0.05352617532134731
+"Runo Terrace","Quinnipiac",0.02115191178341447
+"Douglass Avenue","East Shore",0.1639597200369224
+"Summit Street","Fair Haven Heights",0.2704749528843035
+"Gem Street","Newhallville",0.03381962003703848
+"Butler Street","Newhallville",0.1445040138794576
+"Linden Street","East Rock",0.5086578505739218
+"Linden Street","Prospect Hill",0.003582060181472821
+"Woodward Avenue","East Shore",0.5838339764235139
+"Woodward Avenue","Annex",0.4303357443128509
+"Crescent Street","Beaver Hills",0.7721049216484536
+"Crescent Street","Dixwell",0.06684536975662841
+"Crescent Street","West Rock",0.006435566434902934
+"Goffe Street","Downtown",0.005248198801041135
+"Goffe Street","Dixwell",0.7134916789185856
+"West Prospect Street","Westville",0.01780046746848998
+"West Prospect Street","Amity",0.05118107585115785
+"Fairfield Street","Amity",0.8798248630354828
+"Ramsdell Place","Amity",0.04927553216896748
+"Flint Street","Quinnipiac",0.1009453318339877
+"Spring Avenue","Hill",0.5782222830681795
+"Spring Avenue","Long Wharf",0.0796656903219521
+"Providence Street","Quinnipiac",0.1016090296951834
+"Doty Place","East Shore",0.1078126319151325
+"Grace Street","East Rock",0.1112882838933536
+"Derby Avenue","Edgewood",0.02259905221548807
+"Derby Avenue","West River",0.7036536670008419
+"Derby Avenue","Westville",0.04519536964761491
+"Jewell Street","Edgewood",0.06376112861857687
+"Jewell Street","Beaver Hills",0.1851202185186985
+"Downing Street","Fair Haven",0.1697195758619927
+"Irving Street","West River",0.2368297860735552
+"Morris Avenue","East Shore",0.1185612999791757
+"Button Street","Hill",0.1170219009208439
+"Orchard Street","West River",0.1082599496985584
+"Orchard Street","Hill",0.1466832638382216
+"Orchard Street","Dixwell",0.302664047499544
+"Orchard Street","Newhallville",0.003850879069889225
+"Orchard Street","Dwight",0.2057226482771352
+"Hallock Street","Hill",0.2060593918348401
+"Mumford Road","Westville",0.1409902244765106
+"View Street","East Rock",0.1120051974085411
+"Beverly Road","Amity",0.2312253217118059
+"6th Street","Hill",0.09870765472339542
+"6th Street","Long Wharf",0.08932299781636409
+"Sargent Drive","Long Wharf",0.9633776588849008
+"Wooster Street","Wooster Square/Mill River",0.485900390215482
+"Wooster Street","Downtown",0.002028441056901527
+"Willard Street","Westville",0.526315413036473
+"Melrose Drive","Quinnipiac",0.1694201153612347
+"Stuyvesant Avenue","East Shore",0.4115464105204844
+"Wilson Street","Hill",0.06019152864421654
+"Winthrop Avenue","Edgewood",0.1845038234148781
+"Winthrop Avenue","West River",0.1448925690620232
+"Winthrop Avenue","Beaver Hills",0.3315125699830276
+"Winthrop Avenue","Hill",0.2556894148224302
+"Warren Street","Wooster Square/Mill River",0.06260538076832287
+"Kneeland Road","East Shore",0.2473366696970606
+"Kneeland Road","Annex",0.04865696216676427
+"Ellis Street","Quinnipiac",0.06478854820924121
+"Ashland Place","Annex",0.3010778979382446
+"Hurlburt Street","Hill",0.1269609732244851
+"Englewood Drive","Westville",0.2216909417732689
+"Russo Terrace","Fair Haven Heights",0.05785589327964465
+"Birch Drive","Westville",0.07676241844786121
+"Morris Street","Hill",0.1949966266090298
+"Water Street","Wooster Square/Mill River",0.500343098347986
+"Water Street","Downtown",0.3868025418695442
+"Water Street","Long Wharf",0.3823128993062013
+"Tuttle Drive","East Shore",0.235875203009943
+"Ridge Street","East Rock",0.1081250951052632
+"Burr Street","East Shore",0.7299804553818945
+"Lines Street","Hill",0.07364153386290287
+"Shelter Street","Fair Haven",0.03759002917606086
+"Union Avenue","Hill",0.1949187773767356
+"Union Avenue","Long Wharf",0.2096615958597094
+"Lilac Street","Newhallville",0.3101706242539435
+"Watson Street","Newhallville",0.07848997136463715
+"Hyde Street","East Shore",0.13993775466878
+"Huntington Street","Prospect Hill",0.7780185798590812
+"Huntington Street","Newhallville",0.3980713818964896
+"Lancraft Street","Annex",0.2463691262001992
+"Alton Street","Fair Haven",0.1357114205643025
+"Pine Rock Avenue","West Rock",0.08812208623006823
+"Anthony Drive","East Shore",0.03498722304768378
+"Hemlock Road","Westville",0.3148510160505695
+"Day Street","West River",0.06471118937687093
+"Day Street","Dwight",0.08497426070585995
+"Wall Street","Downtown",0.6197134936573886
+"Marvel Road","Westville",0.127676206317218
+"Fort Hale Road","East Shore",0.7290797153339663
+"Field Street","Amity",0.1050173708541281
+"Ward Street","West River",0.008637390412651304
+"Ward Street","Hill",0.1817997299423192
+"Chamberlain Street","Annex",0.2173345597445076
+"Thorn Street","Hill",0.1245535274040785
+"Scranton Street","West River",0.3139224551738471
+"Essex Street","Fair Haven Heights",0.2987890953524739
+"Essex Street","Quinnipiac",0.004924616199170838
+"Genesee Street","Amity",0.06011930735618534
+"Poplar Street","Fair Haven",0.3208610711371239
+"Marion Street","East Shore",0.08949473036033199
+"Bristol Street","Dixwell",0.3610569301336303
+"Pope Street","East Shore",0.2720676328329338
+"Ocean View Street","East Shore",0.1174109262468662
+"Wallace Street","Wooster Square/Mill River",0.1633060671958314
+"Canal Street","Downtown",0.1221570424814406
+"Canal Street","Dixwell",0.140843101694815
+"Roosevelt Street","Quinnipiac",0.07704105039290636
+"Ann Street","Hill",0.1514036004769382
+"Wilmont Road","West Rock",0.3841516547271035
+"East Ferry Street","Fair Haven Heights",0.103547466622776
+"East Ferry Street","Annex",0.1105728329691891
+"Sherland Avenue","Fair Haven Heights",0.11568441801352
+"Elmer Street","East Shore",0.1336955672306447
+"Upson Terrace","East Shore",0.4403664068088253
+"Upson Terrace","Annex",0.0804238842111408
+"Ivy Street","Prospect Hill",0.04656424643461266
+"Ivy Street","Newhallville",0.5532220377387996
+"Mansion Street","East Shore",0.06023448922830004
+"Bassett Street","Newhallville",0.923442978038616
+"Cart Road","East Shore",0.1270065713011244
+"Saint John Street","Wooster Square/Mill River",0.2985547812226662
+"Saint John Street","Downtown",0.00191744049877209
+"South Frontage Road","Hill",0.7092947383223123
+"Whittlesey Avenue","Beaver Hills",0.1033689174463583
+"Clark Street","East Rock",0.2535524258482033
+"Trumbull Street","Downtown",0.5370371024477218
+"Vernon Street","Hill",0.1547999578068656
+"Norton Parkway","Beaver Hills",0.9471054157731831
+"Vista Terrace","Westville",0.1280661373394735
+"Vista Terrace","Amity",0.01460693977429819
+"Davenport Avenue","West River",0.3005193307099125
+"Davenport Avenue","Hill",0.5847153005663008
+"Elaine Terrace","Annex",0.09732321872924325
+"Sheldon Terrace","Prospect Hill",0.1184801174248533
+"Cove Street","East Shore",0.5240122262380671
+"Young Street","Beaver Hills",0.09236677193581329
+"Chambers Street","Fair Haven",0.2399234996969756
+"Spencer Place","Westville",0.08066536784633681
+"Pearl Street","Downtown",0.047359724314739
+"Pearl Street","Wooster Square/Mill River",0.00272771392590788
+"Pearl Street","East Rock",0.2708955173699391
+"Oakley Street","Annex",0.1421289063841688
+"Lowin Avenue","Westville",0.06835790484624379
+"Lowin Avenue","Amity",0.03543260266548934
+"College Street","Downtown",0.4274058050295672
+"College Street","Hill",0.09745000166398626
+"Academy Street","Wooster Square/Mill River",0.03878356703186067
+"Portland Street","Quinnipiac",0.1041878818706682
+"Terrace Street","Annex",0.175626697149898
+"Grove Street","Downtown",0.6299575948986579
+"Johnston Street","East Shore",0.05123862352184447
+"Salem Street","Hill",0.06648640487961932
+"Fournier Street","Beaver Hills",0.1696728477198666
+"Fournier Street","Newhallville",0.1000246612168169
+"Nelson Street","East Shore",0.1281935922295792
+"Howard Street","Fair Haven Heights",0.2066036806527318
+"Alston Avenue","Westville",0.2456259821102429
+"Frances Hunter Drive","Dixwell",0.1585802771069274
+"Townsend Avenue","East Shore",0.9019680206055396
+"Townsend Avenue","Annex",0.3407540458629301
+"Arthur Street","Hill",0.05786239744005912
+"Dover Street","Fair Haven",0.3421906878488506
+"Florence Avenue","East Shore",0.1747578479474844
+"Page Street","Annex",0.1112454970541937
+"Arch Street","Hill",0.1525653646781234
+"Ashmun Street","Downtown",0.05409478631008138
+"Ashmun Street","Dixwell",0.2479983956130561
+"Dodge Avenue","East Shore",0.09660729694946103
+"Mitchell Drive","East Rock",0.3423739665854916
+"Orchard Avenue","East Shore",0.08097932017227889
+"Stimson Road","Beaver Hills",0.1601222696884507
+"Byron Place","Westville",0.1203151587864216
+"Washington Avenue","Hill",0.8682066874184657
+"Edwards Street","Downtown",0.05906329457102241
+"Edwards Street","East Rock",0.6522110368832947
+"Edwards Street","Prospect Hill",0.2442891208197432
+"Elliot Street","Hill",0.1242935558981974
+"Dewitt Street","Hill",0.1568888533370389
+"Foxon Hill Road","Quinnipiac",0.3707465944139995
+"Porter Street","West River",0.09510612976939389
+"Harper Avenue","Amity",0.2555485535523737
+"Asylum Street","Hill",0.09970578753297329
+"Portsea Street","Hill",0.4491265406865101
+"Pardee Place","Westville",0.01567280137862601
+"Pardee Place","Amity",0.01567280137862601
+"Sea Street","Hill",0.5185994547210167
+"Center Street","Downtown",0.1046627059276153
+"Nicoll Street","East Rock",0.3493866555719363
+"Goodyear Street","Newhallville",0.08728028711954207
+"Rowe Street","Fair Haven",0.1500756638593782
+"Oxford Street","Fair Haven Heights",0.1812281202424713
+"Dayton Street","Westville",0.00934504636522197
+"Dayton Street","Amity",0.03016143335815447
+"Farnham Avenue","Westville",0.01192617785986087
+"Farnham Avenue","West Rock",0.2881944861363097
+"West Park Avenue","Edgewood",0.2679795712195638
+"West Park Avenue","Beaver Hills",0.01717503536291458
+"Foxon Street","Fair Haven Heights",0.1420720384427445
+"Foxon Street","Quinnipiac",0.006292790468399236
+"Park Avenue","East Shore",0.179527053233752
+"Dorman Street","Beaver Hills",0.04412702956725459
+"Dorman Street","Newhallville",0.2283220967602277
+"Emerson Street","Westville",0.07449402766980529
+"Emerson Street","Amity",0.03460267694309379
+"Clifton Street","Fair Haven Heights",0.7734664614452362
+"Clifton Street","Quinnipiac",0.04258572563913623
+"River Street","Fair Haven",0.6485869191220391
+"Beech Street","Wooster Square/Mill River",0.04093576283020325
+"Eastern Street","Fair Haven Heights",0.3622148755886728
+"Eastern Street","Quinnipiac",0.08024819723538791
+"Rock View Terrace","Beaver Hills",0.1081604708571019
+"Tower Parkway","Downtown",0.5594571467550892
+"Tower Parkway","Dixwell",0.03609964014733633
+"Tower Parkway","Dwight",0.004461882403963892
+"Wilcox Place","Fair Haven",0.09690349436226037
+"Plymouth Street","Hill",0.1755069905688494
+"Gando Drive","Quinnipiac",0.3689871046893157
+"Warwick Street","Annex",0.2263308481586471
+"York Street","Downtown",0.4029922588187742
+"York Street","Hill",0.1138095550231253
+"John W Murphy Drive","Fair Haven",0.2524125139328114
+"Stanley Street","Edgewood",0.2378527700974831
+"Cassius Street","Hill",0.1461878882927042
+"Mill Street","Fair Haven",0.04930479057480478
+"Ferry Street","Fair Haven",0.5579110469745276
+"Ferry Street","East Rock",0.05403031486495536
+"Ferry Street","Annex",0.01280287669817618
+"Lake Place","Downtown",0.08748292921644341
+"Lake Place","Dixwell",0.1629252988087718
+"University Place","Dwight",0.1104889541113035
+"Lawncrest Road","Amity",0.4109376028138239
+"Ley Street","East Shore",0.2839209859490321
+"Brookside Avenue","West Rock",0.4897232006324653
+"Munson Street","Beaver Hills",0.006507472453619993
+"Munson Street","Dixwell",0.5891621795184467
+"Munson Street","Newhallville",0.3089743488758021
+"West Elm Street","Westville",0.7095280950778236
+"Cooper Place","Westville",0.2697198292261251
+"Cooper Place","Amity",0.006665538344821084
+"May Street","East Rock",0.09102334217447093
+"Waterfront Street","Annex",0.1805361945059251
+"Stevens Street","Hill",0.1393638957667305
+"Plant Street","Amity",0.1075060349447492
+"South Street","Hill",0.03541095551088368
+"Phillip Street","Westville",0.1009346252055514
+"Middletown Avenue","Fair Haven",0.4019778944099802
+"Middletown Avenue","East Rock",0.102954418797104
+"Middletown Avenue","Quinnipiac",1.678417762988091
+"Lewis Street","Fair Haven",0.02939262953405758
+"Townsend Street","Dixwell",0.03965890040573857
+"Ramsdell Street","Amity",0.2945843153295444
+"Lighthouse Road","East Shore",0.607674332667128
+"Laura Street","Annex",0.149484451742761
+"Hobart Street","Edgewood",0.2008621500852043
+"Rosette Street","Hill",0.54612490551591
+"Forest Road","Westville",0.4252357048762346
+"Uriah Street","East Shore",0.09024306951572775
+"Hallock Avenue","Hill",0.1719505352319346
+"Hallock Avenue","Long Wharf",0.03443425874708839
+"Foote Street","Dixwell",0.3498311856287878
+"Sunset Drive","Amity",0.1691877588682391
+"Victory Drive","Amity",0.1596160435471589
+"Emily Road","Quinnipiac",0.2318817543162756
+"East Street","Wooster Square/Mill River",0.3109830100895351
+"East Street","Long Wharf",0.07460098044927359
+"Barnes Avenue","Quinnipiac",0.4487887951250278
+"Hilltop Road","Amity",0.1426086347055006
+"1st Avenue","Fair Haven Heights",0.1381223295793206
+"Court Street","Wooster Square/Mill River",0.09631227450809488
+"Court Street","Downtown",0.3482619041217373
+"Read Street","Prospect Hill",0.04362794161897415
+"Read Street","Newhallville",0.4366729462937392
+"English Street","Fair Haven",0.3424197888168704
+"Front Street","Fair Haven",0.8335742985003072
+"West Street","West River",0.0199634842253533
+"West Street","Hill",0.3710307610689941
+"Osborn Avenue","Beaver Hills",0.3592667743210103
+"Atwater Street","Fair Haven",0.243136693775365
+"Baldwin Street","Hill",0.1043320811267638
+"Haven Street","Fair Haven",0.09599628569582537
+"Pond Lily Avenue","Amity",0.3099553225593629
+"Pond Lily Avenue","West Rock",0.0874250951592435
+"Valley Street","Westville",0.1141193033769074
+"Valley Street","Amity",0.6360962928613748
+"Valley Street","West Rock",0.2039795275531975
+"Bishop Street","East Rock",0.5907037667933859
+"Judson Avenue","West River",0.3439035498192513
+"Rock Creek Road","Amity",0.3951397725477587
+"Rock Creek Road","West Rock",0.004078418183365496
+"East Pearl Street","Fair Haven",0.1705197393800624
+"Concord Street","East Shore",0.4973774315054536
+"Fountain Street","Westville",1.217297141288631
+"Fountain Street","Amity",1.055022198633471
+"Blatchley Avenue","Fair Haven",0.3811082766709571
+"New Street","Wooster Square/Mill River",0.06881048436130797
+"Wright Avenue","Amity",0.1820278939508383
+"Assumption Street","Quinnipiac",0.138694710504347
+"South Genesee Street","Amity",0.1628525863822776
+"Alden Avenue","Westville",0.424334371149761
+"Gilbert Avenue","West River",0.4632151752816078
+"Hedge Street","Hill",0.02502254144105321
+"Girard Avenue","East Shore",0.3667646425302019
+"Amistad Street","Hill",0.2265677860265289
+"Hazel Street","Newhallville",0.5753379908923297
+"Ives Place","Wooster Square/Mill River",0.2664625721918805
+"Mead Street","West River",0.06823767191911678
+"Gold Street","Hill",0.07144832474662366
+"Cherry Ann Street","Newhallville",0.005074584611732683
+"Tilton Street","Dixwell",0.1608027437790236
+"White Street","Hill",0.1377637829697964
+"Olive Street","Downtown",0.1956954028769161
+"Olive Street","Wooster Square/Mill River",0.02364196171962319
+"Greene Street","Wooster Square/Mill River",0.3138814044309716
+"Greene Street","Downtown",0.002376537421463903
+"Auburn Street","West River",0.03398097934834247
+"Auburn Street","Hill",0.03507549715409272
+"Kensington Street","Dwight",0.1297747110897872
+"Stiles Street","Annex",0.155641223944134
+"Ellsworth Avenue","Edgewood",0.2692809383560585
+"Ellsworth Avenue","West River",0.07159053429351257
+"Ellsworth Avenue","Beaver Hills",0.4252090974968666
+"Harrison Street","Westville",0.09206786382984072
+"Loop Road","Hill",0.01988139422185203
+"Houston Street","Fair Haven",0.1052526651881451
+"Lenox Street","Fair Haven Heights",0.4395843122046764
+"Cove Place","East Shore",0.01140689635971515
+"Clifford Terrace","East Shore",0.1798595619369644
+"Hopkins Drive","East Shore",0.04051783193499021
+"Onyx Street","Westville",0.00499513013041461
+"Onyx Street","Beaver Hills",0.05990892368063305
+"Morris Cove Road","East Shore",0.05509627264919795
+"West Division Street","Newhallville",0.1204706574043464
+"Weybosset Street","Quinnipiac",0.5705583789479204
+"Westwood Road","Westville",0.4833634567072684
+"Anita Street","Beaver Hills",0.2326573272866298
+"Roydon Road","Beaver Hills",0.1686189204075463
+"4th Street","Hill",0.1878715447087615
+"Market Street","Fair Haven",0.3474226499080039
+"Burns Street","East Rock",0.1078642973270429
+"Avon Street","East Rock",0.3236677247328397
+"King Place","Hill",0.06959485520610646
+"Lombard Street","Fair Haven",1.165063921835878
+"Brownell Street","Edgewood",0.1814069668433263
+"Hard Street","West Rock",0.1307071690430498
+"Hine Place","East Rock",0.0946126239583862
+"Artizan Street","Downtown",0.06505579125915358
+"Goodwin Street","Annex",0.1753589463561931
+"Carroll Street","Fair Haven Heights",0.06396549805413342
+"Minor Street","Hill",0.1664456615893589
+"Main Street","Fair Haven",0.08290572659900304
+"Dell Drive","Quinnipiac",0.06360378078812076
+"Palmieri Avenue","Quinnipiac",0.111795809116645
+"Eldert Street","Edgewood",0.1894956331530823
+"Pine Rock Road","Beaver Hills",0.1047156610655624
+"Chester Street","Annex",0.2551335076058205
+"Welcome Street","Fair Haven Heights",0.09172254167315146
+"Alfred Street","East Shore",0.1322926689420433
+"Hall Street","East Shore",0.4851018231190444
+"Townsend Terrace","East Shore",0.4158746214615643
+"Waverly Street","West River",0.04794844067890103
+"Elizabeth Street","Newhallville",0.265913187384094
+"Sylvan Avenue","Downtown",0.05042058544208984
+"Sylvan Avenue","Hill",0.5747179345531429
+"Connecticut Avenue","East Shore",0.05609699587356595
+"Connecticut Avenue","Annex",0.1252585888456851
+"Stone Street","West Rock",0.07311213205953458
+"Pierpont Street","Fair Haven",0.3100684792465607
+"Westminster Street","Quinnipiac",0.2470324942452398
+"East Ramsdell Street","Amity",0.2837564282528586
+"Kimberly Avenue","Hill",0.3958840418093788
+"Prospect Avenue","Annex",0.05171340837434085
+"Parker Place","East Shore",0.25348933923602
+"Yale Avenue","Westville",0.5402933273523131
+"Dixwell Avenue","Downtown",0.01704551150721991
+"Dixwell Avenue","Dixwell",0.2801821829012431
+"Dixwell Avenue","Newhallville",0.278893662185473
+"West Read Street","Newhallville",0.1405526986408796
+"Mill River Street","Wooster Square/Mill River",0.07655502496157009
+"Barnett Street","Westville",0.1385054082134868
+"Knollwood Drive","Westville",0.2937008880761126
+"Norwood Road","Quinnipiac",0.1023418146634061
+"Brewery Street","Wooster Square/Mill River",0.01880025888126507
+"Brewery Street","Long Wharf",0.5629972840717121
+"Shelton Avenue","Dixwell",0.007449267315178227
+"Shelton Avenue","Newhallville",0.3973606991013973
+"Wolcott Street","Fair Haven",0.6762546508908476
+"Glen Haven Road","Quinnipiac",0.5271025616224452
+"Pardee Street","Annex",0.07573837825432474
+"Marlin Drive","Westville",0.07983124632636658
+"Liberty Street","Hill",0.1466820533650104
+"Liberty Street","Long Wharf",0.001168130703125563
+"Prospect Street","Downtown",0.2393937114335122
+"Prospect Street","Prospect Hill",0.3842830078591514
+"Fulton Terrace","Annex",0.1947799649385063
+"Huntington Road","East Shore",0.04516586020280815
+"Huntington Road","Annex",0.04516586020280815
+"Columbus Avenue","Hill",1.354317880470777
+"Bright Street","Fair Haven",0.08283623839245707
+"West Hazel Street","Newhallville",0.1914354529590807
+"Pawtucket Street","Quinnipiac",0.129752092691176
+"Orange Street","Downtown",0.5766698728664358
+"Orange Street","East Rock",0.7671878977950624
+"Cliff Street","East Rock",0.003871272069926753
+"Cliff Street","Prospect Hill",0.3634294392763169
+"Smith Avenue","Quinnipiac",0.381822223377221
+"Thompson Street","Newhallville",0.5397572468015777
+"Kendall Street","Annex",0.3344871377765802
+"Shepard Avenue","East Shore",0.1794553002000198
+"Temple Street","Downtown",0.6225582128059837
+"Ogden Street","East Rock",0.004610916596738413
+"Ogden Street","Prospect Hill",0.5026422350579975
+"Massachusetts Avenue","East Shore",0.1204580647081562
+"Henry Street","Dixwell",0.6402459177499092
+"State Street","Wooster Square/Mill River",0.3524379755020088
+"State Street","East Rock",0.3186086183958111
+"State Street","Long Wharf",0.002206883684112984
+"State Street","Downtown",0.6486320938362481
+"State Street","Hill",0.005705674607953745
+"State Street","Fair Haven",0.4260977695889767
+"Truman Street","Hill",0.2601054259984883
+"Austin Street","West Rock",0.09698785872035715
+"Tolli Terrace","East Shore",0.1216162188199607
+"Perkins Street","Fair Haven",0.07894818464385069
+"Ruby Street","Beaver Hills",0.1155855288371068
+"Level Street","West Rock",0.05607109359757767
+"Whalley Avenue","Edgewood",0.5833796112791972
+"Whalley Avenue","Beaver Hills",0.4593521502882861
+"Whalley Avenue","Amity",0.9397123894311424
+"Whalley Avenue","Downtown",0.02132193296216154
+"Whalley Avenue","Westville",0.5515371260492222
+"Whalley Avenue","Dwight",0.6390169544823796
+"Hughes Place","Wooster Square/Mill River",0.02270450028850417
+"Brewster Street","Newhallville",0.2337633432966855
+"Maltby Street","Fair Haven",0.1048277773175306
+"Glen Road","Beaver Hills",0.5973036968976988
+"George Street","Downtown",0.853966457441302
+"George Street","West River",0.6727235541509133
+"George Street","Dwight",0.2555402859947766
+"Chestnut Street","Wooster Square/Mill River",0.06454341740594721
+"2nd Street","Fair Haven",0.06719180831079058
+"2nd Street","Hill",0.2257038524551337
+"Willis Street","Beaver Hills",0.06253959705926514
+"Willis Street","Newhallville",0.2512949005058508
+"Park Street","Downtown",0.307848373870215
+"Park Street","Hill",0.1057916355054031
+"Dickerman Street","Dixwell",0.2394817432056863
+"Crofton Street","Annex",0.1744648650061402
+"Clover Place","Hill",0.1354509839121684
+"Wooster Place","Wooster Square/Mill River",0.03897942902562713
+"Carlisle Street","Hill",0.3322039313932055
+"Wintergreen Avenue","Beaver Hills",0.003891319158699231
+"Wintergreen Avenue","West Rock",1.396576458763248
+"West Ivy Street","Newhallville",0.1913714878312911
+"Gibbs Street","Newhallville",0.2178461533950691
+"Leroy Terrace","East Shore",0.02300941266735506
+"Autumn Street","Prospect Hill",0.1244106612689273
+"Cross Street","Quinnipiac",0.111165985585282
+"5th Street","Hill",0.1865913106878203
+"5th Street","Long Wharf",0.002346278131189029
+"Meadow View Road","East Shore",0.3738437856265995
+"Leila Street","Fair Haven Heights",0.09538738863976937
+"Lakeview Terrace","Westville",0.1600388123697325
+"Peck Street","Fair Haven",1.089296583347568
+"Moreland Road","Beaver Hills",0.3408102629384875
+"Moreland Road","Dixwell",0.03173827829136749
+"Pine Street","Fair Haven",0.8963489955249189
+"Cold Spring Street","East Rock",0.3557521107135411
+"Cold Spring Street","Prospect Hill",0.05902504909772791
+"Lamberton Street","Hill",0.6740861033047278
+"Lamberton Street","Long Wharf",0.02499432481063849
+"Woodland Street","Dixwell",0.1331102666425042
+"Webster Street","Dixwell",0.5700411888896391
+"Long Hill Terrace","Westville",0.1158467236868571
+"Long Hill Terrace","Amity",0.02059241784411796
+"Elmwood Road","Westville",0.2258882899951231
+"Garden Street","Dwight",0.05390100869522887
+"Fowler Street","Amity",0.2711998316390012
+"Sachem Street","Downtown",0.4251018755690519
+"William Street","Wooster Square/Mill River",0.2332585712877175
+"Kenny Drive","Quinnipiac",0.3701722224320515
+"Donna Drive","Quinnipiac",0.1401044328249968
+"Farren Avenue","Fair Haven Heights",0.0290230817803575
+"Farren Avenue","Annex",0.1280418819587869
+"Kossuth Street","Hill",0.1016034826923523
+"Hemingway Place","Quinnipiac",0.1631045983363025
+"Highland Street","East Rock",0.04116615192542247
+"Highland Street","Prospect Hill",0.7115617420355521
+"Highland Street","Newhallville",0.04222436413870333
+"Howe Street","Downtown",0.05712116281948838
+"Howe Street","Hill",0.01344190503983526
+"Howe Street","Dwight",0.2791614095784866
+"Ray Road","Westville",0.4009101016973596
+"Daisy Street","Newhallville",0.1874728988079634
+"Wayfarer Street","West Rock",0.3838217118083179
+"Shoreham Road","East Shore",0.1030788573617655
+"Glenview Terrace","Amity",0.3508537230883438
+"Beecher Place","East Shore",0.1448896204907089
+"Rosewood Avenue","Fair Haven Heights",0.1120487994074941
+"Harrington Avenue","East Shore",0.03352203083531987
+"Harrington Avenue","Annex",0.1176195055193127
+"Robertson Street","Fair Haven Heights",0.09355060626018288
+"Loomis Place","Prospect Hill",0.09332254318123155
+"Hudson Street","Dixwell",0.07109893526866964
+"Hudson Street","Dwight",0.07109893526866964
+"Woodbridge Avenue","Westville",0.2858210296340508
+"Bradley Street","Wooster Square/Mill River",0.04208866757862031
+"Bradley Street","Downtown",0.3305095741919117
+"Bradley Street","East Rock",0.03825618562462616
+"Horsley Avenue","East Shore",0.04302201483501147
+"Lander Street","Prospect Hill",0.07328545872016061
+"Lander Street","Newhallville",0.07328545872016061
+"Hubinger Street","Edgewood",0.1560082493230619
+"Hubinger Street","Beaver Hills",0.03256769474652056
+"Batter Terrace","West River",0.04006104093526264
+"North Bank Street","East Rock",0.0727502974365092
+"Anderson Street","East Rock",0.1429500214364035
+"Monroe Street","Fair Haven",0.2076275859631774
+"Putnam Street","Hill",0.4254056625850727
+"Norton Street","Edgewood",0.2352371952978649
+"Norton Street","West River",0.04711903295005967
+"Norton Street","Beaver Hills",0.1578577350911803
+"Franklin Street","Wooster Square/Mill River",0.2633092460966003
+"Grant Street","Hill",0.210327875976502
+"Lighthouse Point Terrace","East Shore",0.08006168202628609
+"Lexington Avenue","Fair Haven Heights",0.5997139551095942
+"Argonne Street","Edgewood",0.1081750486929486
+"Whittier Road","Westville",0.287626260195623
+"Arden Street","East Shore",0.1206380090564462
+"Vine Street","West River",0.02118248992582183
+"Vine Street","Hill",0.02118248992582183
+"Forbes Avenue","Long Wharf",0.1632002684805695
+"Forbes Avenue","Annex",1.41393288571433
+"Blake Street","Edgewood",0.0259454479294592
+"Blake Street","Westville",0.1393396467252949
+"Blake Street","Beaver Hills",0.265040714375357
+"Blake Street","West Rock",0.3511232506369707
+"Chatham Street","Fair Haven",0.769621908603336
+"Chamberlain Place","Annex",0.07482972515383221
+"Strong Street","Amity",0.07432650571076162
+"Strong Street","West Rock",0.02695467354348426
+"Goffe Terrace","Beaver Hills",0.6295469236945163
+"Goffe Terrace","Dixwell",0.03757626858851299
+"Curtis Drive","Westville",0.454537491725488
+"Clay Street","Fair Haven",0.6344900802690577
+"Wellington Road","Beaver Hills",0.1168573506035707
+"Crown Street","Downtown",0.8791276021756059
+"Crown Street","Dwight",0.002896019063095884
+"Kingswood Drive","Fair Haven Heights",0.1600969460712967
+"Humphrey Street","Fair Haven",0.1040214266091545
+"Humphrey Street","Wooster Square/Mill River",0.4534891488106629
+"Humphrey Street","East Rock",0.5382258770085737
+"Humphrey Street","Downtown",0.1176328965814187
+"Wheeler Street","Annex",0.1791556342950898
+"Cedar Street","Hill",0.3605579799405345
+"Cedar Street","Long Wharf",0.0269238161189733
+"Clarendon Street","East Shore",0.08307846871476977
+"Clarendon Street","Annex",0.1227948776293704
+"Maplewood Road","Westville",0.07340311893414347
+"Maplewood Road","Amity",0.001804796845918161
+"Dyer Street","Beaver Hills",0.7525483076643857
+"Gilbert Street","Hill",0.1170366946457206
+"Newhall Street","Newhallville",0.2573993078046689
+"Constance Baker Motley Street","West River",0.08253972394013633
+"Frederick Street","Amity",0.250704393896455
+"Legion Avenue","West River",0.9213381522618507
+"Legion Avenue","Dwight",0.03158963545131687
+"Legion Avenue","Hill",0.03328848403372758
+"Greenwich Avenue","Hill",0.2219063514762855
+"Meadow Street","Hill",0.04004688588416032
+"John Williamson Drive","Fair Haven",0.08974772942744913
+"Milton Street","Annex",0.1617582561212566
+"Maltby Place","Fair Haven",0.03771997960463681
+"Ford Street","Newhallville",0.1625886622628432
+"Westerleigh Road","Amity",0.2838441614794638
+"Revere Street","Fair Haven Heights",0.1153552522527076
+"Fox Street","Fair Haven",0.1067533555343522
+"Fitch Street","Edgewood",0.03344351169547729
+"Fitch Street","Westville",0.1139111919893927
+"Fitch Street","Beaver Hills",0.6306368249569617
+"Fitch Street","West Rock",0.2247946671460962
+"Starr Street","Prospect Hill",0.271407067051103
+"Starr Street","Newhallville",0.4301960008266429
+"1st Street","Hill",0.2346229683910507
+"Rock Hill Road","Fair Haven Heights",0.09010471307228685
+"Saltonstall Avenue","Fair Haven",0.6818528189972652
+"Russell Street","Fair Haven Heights",1.049333376215055
+"Russell Street","Annex",0.05953693579443455
+"North Frontage Road","Downtown",0.4225329154453503
+"North Frontage Road","Hill",0.03146087912017657
+"North Frontage Road","Dwight",0.003436087079006211
+"South Water Street","Hill",0.2730206834967846
+"Orange Avenue","West River",0.1567002696515447
+"West Hills Road","Amity",0.02289167465160442
+"West Hills Road","West Rock",0.07020952649074087
+"Pitkin Street","Downtown",0.02447758433215916
+"Elizabeth Ann Drive","East Shore",0.1353908163466802
+"Elizabeth Ann Drive","Annex",0.004020187417812657
+"Parkside Drive","Amity",0.2059510457542334
+"Canner Street","East Rock",0.6225430485475665
+"Canner Street","Prospect Hill",0.443555925056261
+"Sperry Street","Dixwell",0.0421906412193694
+"Sperry Street","Dwight",0.02125805414410347
+"Fair Street","Downtown",0.2555148137753888
+"Daggett Street","Hill",0.1712315992169128
+"Edgehill Road","Prospect Hill",0.1378383283534889
+"Woodside Terrace","Westville",0.04930736545308607
+"Green Hill Terrace","Amity",0.2174092854633571
+"Hervey Street","East Shore",0.2409162221284187
+"Prince Street","Hill",0.07040446936468957
+"Aner Street","Fair Haven Heights",0.183474612396368
+"Redfield Street","Hill",0.1229750876689235
+"Cabot Street","Annex",0.0918248627403688
+"Irvington Street","Annex",0.313716048732599
+"Kohary Drive","Westville",0.2739793333860653
+"Hawthorne Road","Quinnipiac",0.05932995897691758
+"Pleasant Street","East Rock",0.08622631493983593
+"Fiore Street","Quinnipiac",0.08968592761162533
+"South Orange Street","Downtown",0.05102745616961155
+"South Orange Street","Hill",0.08180411236628465
+"Benton Street","Amity",0.07233536565415717
+"Judwin Avenue","Westville",0.5927162392100146
+"Lloyd Street","Fair Haven",0.2019659363409148
+"Foster Street","East Rock",0.3627331907472415
+"Mechanic Street","Wooster Square/Mill River",0.0007822415179020575
+"Mechanic Street","East Rock",0.1973588067583773
+"East Grand Avenue","Fair Haven Heights",0.6438653475279079
+"East Grand Avenue","Quinnipiac",0.007697482328092559
+"Marin Road","East Shore",0.0482321402872364
+"Albert Street","East Rock",0.140328681039678
+"Dwight Street","West River",0.0370083415907927
+"Dwight Street","Dwight",0.3353289945932437
+"Cave Street","Prospect Hill",0.04427398642036662
+"Cave Street","Newhallville",0.1085095540535078
+"Bristol Place","East Shore",0.05230020633873703
+"Church Street","Downtown",0.4395388654932035
+"Church Street","Hill",0.01858213320217485
+"Church Street","Long Wharf",0.1793592926148089
+"Orchard Place","Dixwell",0.1419222592037589
+"Sherman Avenue","Newhallville",0.3258839918310513
+"Sherman Avenue","West River",0.1714407292773562
+"Sherman Avenue","Dixwell",0.3360420534884223
+"Sherman Avenue","Hill",0.02613750549898787
+"Sherman Avenue","Dwight",0.1757773772046594
+"Welton Street","East Rock",0.1136363335559731
+"Hillhouse Avenue","Downtown",0.1525345039464147
+"Howard Avenue","Hill",0.7518805611941241
+"Fairmont Avenue","Annex",0.2844030139579769
+"Myron Street","East Shore",0.3229275631314654
+"Hotchkiss Street","Edgewood",0.06343578327188648
+"Winchester Avenue","Downtown",0.00131621905867577
+"Winchester Avenue","Prospect Hill",0.2070794541800025
+"Winchester Avenue","Dixwell",0.2075273385852252
+"Winchester Avenue","Newhallville",0.1883980101399832
+"Sheffield Avenue","Prospect Hill",0.1877585973034657
+"Parmelee Avenue","West River",0.3564732405877878
+"Anthony Street","Amity",0.1532071856685678
+"Fulton Street","Annex",0.462977559795916
+"Old Foxon Road","Fair Haven Heights",0.06811128922558231
+"Whitney Avenue","Downtown",0.1703607466092091
+"Whitney Avenue","East Rock",0.3779844222835114
+"Whitney Avenue","Prospect Hill",0.22166965023022
+"Woolsey Street","Fair Haven",0.4261200736283416
+"Conrad Drive","Westville",0.7235529903444891
+"Willow Street","Fair Haven",0.03628868013265032
+"Willow Street","East Rock",1.039790903095428
+"Willow Street","Prospect Hill",0.003561082890820906
+"Jefferson Street","Wooster Square/Mill River",0.05275505837236145
+"Livingston Street","East Rock",0.5061122064255548
+"Edgar Street","Hill",0.03685762986171238
+"Colony Road","Beaver Hills",0.3082192133830997
+"Lyon Street","Wooster Square/Mill River",0.1832697263659258
+"Clinton Avenue","Fair Haven",0.2820954484193967
+"Clinton Avenue","East Rock",0.04048795781424976
+"Union Street","Downtown",0.1261527037189711
+"Lawrence Street","Wooster Square/Mill River",0.003479628380983281
+"Lawrence Street","East Rock",0.7099764200280512
+"Lawrence Street","Prospect Hill",0.1057091402010879
+"Alden Street","East Shore",0.1047700422269603
+"Downes Street","Hill",0.03782310658609497
+"Pond Street","Newhallville",0.2664686997846735
+"Congress Avenue","West River",0.04711071975127076
+"Congress Avenue","Hill",1.257346936658286
+"Hemingway Street","Fair Haven Heights",0.4424295996939174
+"Hamilton Street","Wooster Square/Mill River",0.1671504389164547
+"Hamilton Street","Long Wharf",0.05858036363331053

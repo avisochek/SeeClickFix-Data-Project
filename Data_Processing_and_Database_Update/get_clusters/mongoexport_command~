@@ -1,0 +1,2 @@
+mongoexport --db nh_data --collection clusters --csv -f "id,rtt,score" -o nh_cluster_data
+

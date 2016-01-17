@@ -1,0 +1,5 @@
+mongoexport --db nh_data --collection issues --csv -f "status,neighborhood,street_name,rtid,rtt,address,lat,lng,id,created_at,acknowledged,repid,acknowledged_at,closed_at,cluster_id" -o nh_issues_data.csv
+
+
+mongoexport --db nh_data --collection clusters --csv -f "id,rtt,score" -o nh_cluster_data.csv
+

@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: MyString
+  created_at: MyString
+  neighborhood: MyString
+  street_name: MyString
+  acknowledged: false
+  rtid: MyString
+  rtt: MyString
+  adress: MyString
+  lat: 1.5
+  lng: 1.5
+  id_: MyString
+  integer: MyString
+
+two:
+  status: MyString
+  created_at: MyString
+  neighborhood: MyString
+  street_name: MyString
+  acknowledged: false
+  rtid: MyString
+  rtt: MyString
+  adress: MyString
+  lat: 1.5
+  lng: 1.5
+  id_: MyString
+  integer: MyString
