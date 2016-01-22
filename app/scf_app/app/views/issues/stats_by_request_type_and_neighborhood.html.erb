@@ -1,0 +1,21 @@
+<p>Results!</p>
+<h2><%= @request_type %></h2>
+<table>
+  <tr>
+    <td>neighborhood</td>
+    <td>number of issues</td>
+    <td>acknowledge rate</td>
+    <td>fix rate</td>
+    <td>average fix time (days)</td>
+  </tr>
+  <% @stats.each do |stats|%>
+    <tr>
+      <td><%= stats[:neighborhood] %></td>
+      <td><%= stats[:n_issues] %></td>
+      <td><%= stats[:acknowledge_rate] %></td>
+      <td><%= stats[:fix_rate] %></td>
+      <td><%= stats[:avg_fix_time] %></td>
+    </tr>
+  <% end %>
+
+</table>

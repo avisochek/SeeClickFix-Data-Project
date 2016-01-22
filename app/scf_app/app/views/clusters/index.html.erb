@@ -1,0 +1,10 @@
+<h1><%= @request_type %></h1>
+<h2>All Clusters</h2>
+<% @clusters.each do |cluster|%>
+  <%= link_to "more",cluster_path(cluster),:target => "_blank"%>
+  <%= cluster[:score] %>
+  <% cluster.issues.select(:street_name).distinct().each do |street| %>
+    <%=street[:street_name]  %>
+  <% end %>
+  </br>
+<% end %>

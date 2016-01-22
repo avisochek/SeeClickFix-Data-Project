@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ScfApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <h1>Get Stats</h1>
+  <%= form_tag "/issues/stats_by_request_type" do%>
+  last week<input type="radio" name="days_back", value='7'></input>
+  last month<input type="radio" name="days_back", value='30'></input>
+  last year<input type="radio" name="days_back", value='365'></input>
+  all<input type="radio" name="days_back", value='0'></input>
+    <%= submit_tag "by request type" %>
+  <% end %>
+  <%= form_tag "/issues/stats_by_neighborhood" do |f|%>
+    last week<input type="radio" name="days_back", value='7'></input>
+    last month<input type="radio" name="days_back", value='30'></input>
+    last year<input type="radio" name="days_back", value='365'></input>
+    all<input type="radio" name="days_back", value='0'></input>
+    <%= submit_tag "by neighborhood" %>
+  <% end %>
+  <%= form_tag "/issues/stats_by_request_type_and_neighborhood" do |f|%>
+    last week<input type="radio" name="days_back", value='7'></input>
+    last month<input type="radio" name="days_back", value='30'></input>
+    last year<input type="radio" name="days_back", value='365'></input>
+    all<input type="radio" name="days_back", value='0'></input>
+    <%= submit_tag "by request type then by neighborhood" %>
+    <select name="request_type">
+      <option value="Bins for Trash & Recycling">Bins for Trash and Recycling</option>
+      <option value="Graffiti">Graffiti</option>
+      <option value="Hangers">Hangers</option>
+      <option value="Health Complaints">Health Complaints</option>
+      <option value="Illegal Dumping">Illegal Dumping</option>
+      <option value="Other">Other</option>
+      <option value="Other - city responsibility">Other - city responsibility</option>
+      <option value="Parking Violation/Abandoned Auto">Parking Violation/Abandoned Auto</option>
+      <option value="Parks Request">Parks Request</option>
+      <option value="Policing Issue">Policing Issue</option>
+      <option value="Potholes">Potholes</option>
+      <option value="Private Property Issue">Private Property Issue</option>
+      <option value="Public Space, Streets and Drains">Public Space, Streets and Drains</option>
+      <option value="Sidewalks and Curb damage">Sidewalks and Curb damage</option>
+      <option value="Signs / Bus Shelters / Pavement Markings">Signs / Bus Shelters / Pavement Markings</option>
+      <option value="Street Lamp">Street Lamp</option>
+      <option value="Street Sweeping">Street Sweeping</option>
+      <option value="Traffic/Road Safety">Traffic/Road Safety</option>
+      <option value="Traffic Signal / Pedestrian Signal">Traffic Signal / Pedestrian Signal</option>
+      <option value="Trash & Recycling">Trash and Recycling</option>
+      <option value="Tree Trimming">Tree Trimming</option>
+    </select>
+  <% end %>
+
+<%= yield %>
+
+</body>
+</html>

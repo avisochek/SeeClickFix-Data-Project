@@ -1,0 +1,46 @@
+---
+title: "New Haven Street Rankings"
+author: "Allan Visochek"
+date: "November 11, 2015"
+output: html_document
+---
+
+```{r,echo=FALSE}
+setwd("~/Desktop/SeeClickFix_Street_and_neighborhood_ranking/analysis/")
+library(ggplot2)
+library(knitr)
+streets<-read.csv("data/nh_streets_data_1.csv")
+streets$issuesPerMile<-streets$n_issues/streets$nh_length
+
+perc.rank <- function(x) trunc(rank(x))/length(x)
+streets$percentile<-perc.rank(streets$issuesPerMile)
+
+streets_by_rank<-streets[order(-streets$issuesPerMile),]
+rownames(streets_by_rank) <- 1:nrow(streets_by_rank)
+```
+
+```{r, echo=FALSE,message=FALSE,warning=FALSE}
+#ggplot(aes(x=n_issues),data=streets)+geom_histogram()
+#ggplot(aes(x=n_issues),data=streets)+geom_histogram()+scale_x_log10(breaks=c(10,100,1000))+ggtitle("")
+#ggplot(aes(x=nh_length),data=streets)+geom_histogram(binwidth=.05)
+#ggplot(aes(x=nh_length),data=streets)+geom_histogram(binwidth=.05)+scale_x_log10()+ggtitle()
+#ggplot(aes(x=n_issues/nh_length),data=streets)+geom_histogram()
+ggplot(aes(x=n_issues/nh_length),data=streets)+
+  geom_histogram()+
+  scale_x_log10(breaks=c(10,100,1000))+
+  xlab("Issues Per Mile")+
+  ggtitle("Histogram of Number of Issues Per Mile")
+```
+
+#Street Rankings by Number of Issues Per Mile
+```{r, echo=FALSE}
+streets_by_rank$rank <- 1:nrow(streets_by_rank)
+kable(streets_by_rank[c("name","issuesPerMile","percentile")],format = "markdown")
+```
+
+#Street Rankings by Street Name
+```{r,echo=FALSE}
+streets_by_name<-streets_by_rank[order(streets_by_rank$name),]
+kable(streets_by_name[c("name","issuesPerMile","percentile")],format = "markdown")
+
+```

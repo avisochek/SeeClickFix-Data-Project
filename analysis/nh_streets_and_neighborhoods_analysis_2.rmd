@@ -1,0 +1,108 @@
+---
+title: "New Haven Street Rankings"
+author: "Allan Visochek"
+date: "November 26, 2015"
+output: pdf_document
+fontsize: 8pt
+geometry: margin=0in
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+setwd("~/Desktop/SeeClickFix_Street_and_neighborhood_ranking/analysis/")
+streets_by_neighborhood<-read.csv("data/nh_streets_data_by_neighborhood.csv")
+row.names(streets_by_neighborhood)<-paste(streets_by_neighborhood$name, streets_by_neighborhood$neighborhood)
+issues<-read.csv("data/nh_issues_data.csv")
+issues$request_type<-issues$rtt
+library(ggplot2)
+library(dplyr)
+library(knitr)
+
+issues_grouped<-issues%>%
+  filter(street_name %in% streets_by_neighborhood$name)%>%
+  mutate(street_name=factor(street_name))%>%## this is necessary to get the last part to work...
+  group_by(street_name,neighborhood,request_type,status)%>%
+  summarise(n_issues=n())
+
+issues_grouped$street_length<-
+  streets_by_neighborhood[
+    paste(issues_grouped$street_name,
+          issues_grouped$neighborhood),
+    ]$length
+
+issues_grouped$issues_per_mile = issues_grouped$n_issues/issues_grouped$street_length
+```
+#Open Issues
+##Street Rankings by Request Type and Neighborhood:
+```{r echo=FALSE,warning=FALSE,results="asis"}
+for (rtt in levels(issues_grouped$request_type)){
+  sub_issues<-filter(issues_grouped,
+                     request_type==rtt,status=="Open")[c("street_name",
+                                                         "neighborhood",
+                                                         "n_issues",
+                                                         "street_length",
+                                                         "issues_per_mile",
+                                                         "request_type")]
+  if(nrow(sub_issues)>0){
+    plt<-ggplot(aes(x=n_issues),data=sub_issues)+
+      geom_histogram(binwidth=1)+
+      ggtitle(rtt)
+    print(plt)
+    reordered_sub_issues<-sub_issues[order(desc(sub_issues$issues_per_mile)),]
+    print(kable(reordered_sub_issues,
+                format="markdown",
+                align="l"))
+    cat('\n')
+  }
+}
+```
+
+#Acknowledged Issues
+##Street Rankings by Request Type and Neighborhood:
+```{r echo=FALSE,warning=FALSE,results="asis"}
+for (rtt in levels(issues_grouped$request_type)){
+  sub_issues<-filter(issues_grouped,
+                     request_type==rtt,
+                     status=="Acknowledged")[c("street_name",
+                                               "neighborhood",
+                                               "n_issues",
+                                               "street_length",
+                                               "issues_per_mile",
+                                               "request_type")]
+  if(nrow(sub_issues)>0){
+    plt<-ggplot(aes(x=n_issues),data=sub_issues)+
+      geom_histogram(binwidth=1)+
+      ggtitle(rtt)
+    print(plt)
+    reordered_sub_issues<-sub_issues[order(desc(sub_issues$issues_per_mile)),]
+    print(kable(reordered_sub_issues,
+                format="markdown",
+                align="l"))
+    cat('\n')
+  }
+}
+```
+
+#All Issues
+##Street Rankings by Request Type and Neighborhood:
+```{r echo=FALSE,warning=FALSE,results="asis"}
+for (rtt in levels(issues_grouped$request_type)){
+  sub_issues<-filter(issues_grouped,
+                     request_type==rtt)[c("street_name",
+                                          "neighborhood",
+                                          "n_issues",
+                                          "street_length",
+                                          "issues_per_mile",
+                                          "request_type")]
+  if(nrow(sub_issues)>0){
+    plt<-ggplot(aes(x=n_issues),data=sub_issues)+
+      geom_histogram(binwidth=1)+
+      ggtitle(rtt)
+    print(plt)
+    reordered_sub_issues<-sub_issues[order(desc(sub_issues$issues_per_mile)),]
+    print(kable(reordered_sub_issues,
+                format="markdown",
+                align="l"))
+    cat('\n')
+  }
+}
+```

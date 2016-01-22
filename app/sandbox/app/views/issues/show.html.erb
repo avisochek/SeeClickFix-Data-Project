@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @issue.status %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @issue.created_at %>
+</p>
+
+<p>
+  <strong>Neighborhood:</strong>
+  <%= @issue.neighborhood %>
+</p>
+
+<p>
+  <strong>Street name:</strong>
+  <%= @issue.street_name %>
+</p>
+
+<p>
+  <strong>Acknowledged:</strong>
+  <%= @issue.acknowledged %>
+</p>
+
+<p>
+  <strong>Rtid:</strong>
+  <%= @issue.rtid %>
+</p>
+
+<p>
+  <strong>Rtt:</strong>
+  <%= @issue.rtt %>
+</p>
+
+<p>
+  <strong>Adress:</strong>
+  <%= @issue.adress %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @issue.lat %>
+</p>
+
+<p>
+  <strong>Lng:</strong>
+  <%= @issue.lng %>
+</p>
+
+<p>
+  <strong>Id :</strong>
+  <%= @issue.id_ %>
+</p>
+
+<p>
+  <strong>Integer:</strong>
+  <%= @issue.integer %>
+</p>
+
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>
