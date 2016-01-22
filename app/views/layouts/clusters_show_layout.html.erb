@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ScfApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm58egAUOadPo5D7aGStqWvybk6A68JQE&callback=initMap"
+    async defer></script>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

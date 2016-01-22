@@ -1,0 +1,4 @@
+<h2>Please Make a Selection Below</h2>
+<% @request_types.each do |request_type| %>
+<%= link_to request_type[:rtt],'/clusters/index/'+request_type[:rtid] %>
+<% end %>
